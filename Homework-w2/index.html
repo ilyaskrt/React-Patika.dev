@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo APP</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body class="container">
+    <header>
+      <h2 class="headline">Week2 Homework</h2>  
+    </header>
+    
+    <div class="main">
+        <input id="user" type="text" placeholder="Kullanıcı adını giriniz:">
+        <button id="welcome"></button>
+        <form>
+            <input id="data" type="text" placeholder="Veri giriniz..." minlength="3">
+            <button onclick=newElement() type="submit" class="btn btn-outline">+</button>
+        </form>
+    </div>
+    <div class="todoList">
+        <ul id="myList">
+            <li>value 1</li>
+            <li>value 2</li>
+            <li>value 3</li>
+        </ul>
+        <a class="clear" id="clear">Clear All</a>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
